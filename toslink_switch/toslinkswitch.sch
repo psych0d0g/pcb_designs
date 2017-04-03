@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:toslinkswitch-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,11 +28,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:PLT133-T10W
-LIBS:library_custom
 LIBS:switches
 LIBS:library_custom_usb
-LIBS:toslinkswitch-cache
+LIBS:library_custom_demuxer
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1109,7 +1106,7 @@ F 3 "" H 3100 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG-RESCUE-toslinkswitch J2
+L USB_OTG J2
 U 1 1 58DC5D6E
 P 5450 1750
 F 0 "J2" H 5250 2200 50  0000 L CNN
