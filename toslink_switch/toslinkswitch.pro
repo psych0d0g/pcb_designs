@@ -1,4 +1,4 @@
-update=Mo 03 Apr 2017 14:45:45 CEST
+update=03.04.2017 22:57:47
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,6 +33,8 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -69,5 +71,4 @@ LibName29=valves
 LibName30=switches
 LibName31=library_custom_usb
 LibName32=library_custom_demuxer
-[general]
-version=1
+LibName33=C:/Users/Cronix/Downloads/toslinkswitch/toslinkswitch/toslinkswitch-cache
