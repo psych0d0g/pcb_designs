@@ -1,4 +1,4 @@
-To get an ir hex code for a specific unused button of your remote to be used for toslink input cycle use the following code on your arduino which is connected to a TSOP:
+To get an ir hex code for a specific unused button of your remote to be used for toslink input cycle use the following code on your arduino which is connected to a TSOP, then open the serial monitor while the Arduino is still connected to see the hex codes received
 
 ```C#
 #include <IRremote.h>
